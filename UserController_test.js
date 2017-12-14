@@ -17,7 +17,7 @@ describe('UserController', () => {
         let UserServiceMock;
 
         beforeEach(() => {
-            UserServiceMock = sandbox.stub(UserService, 'get');
+            UserServiceMock = sandbox.stub(UserService.prototype, 'get');
         });
         afterEach(() => {
             UserServiceMock.restore();
