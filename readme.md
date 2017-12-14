@@ -1,4 +1,4 @@
-See **Master** branch for ES6 syntax and **ES5** branch for ES5 syntax.
+See **ES6** branch for ES6 syntax and **ES5** branch for ES5 syntax.
 
 ## Problem
 
