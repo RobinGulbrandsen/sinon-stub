@@ -1,0 +1,26 @@
+{
+  "name": "sinon-stub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UserController.js",
+  "scripts": {
+    "test": "mocha -r babel-core/register ./UserController_test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinGulbrandsen/sinon-stub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinGulbrandsen/sinon-stub/issues"
+  },
+  "homepage": "https://github.com/RobinGulbrandsen/sinon-stub#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3"
+  }
+}
